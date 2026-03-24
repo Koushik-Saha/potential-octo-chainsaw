@@ -1,0 +1,98 @@
+.skills {
+  background: var(--bg-light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+}
+
+.skillCard {
+  padding: 2rem;
+}
+
+.category {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid transparent;
+}
+
+.category-blue {
+  color: var(--secondary);
+  border-bottom-color: rgba(37, 99, 235, 0.15);
+}
+
+.category-gold {
+  color: var(--accent-dark);
+  border-bottom-color: rgba(201, 162, 39, 0.2);
+}
+
+.category-navy {
+  color: var(--primary);
+  border-bottom-color: rgba(26, 58, 92, 0.15);
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.skillLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skillLabel span:first-child {
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.skillPercent {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.barBg {
+  height: 6px;
+  background: var(--border);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fill-blue {
+  background: linear-gradient(90deg, var(--secondary), #60a5fa);
+}
+
+.fill-gold {
+  background: linear-gradient(90deg, var(--accent-dark), var(--accent-light));
+}
+
+.fill-navy {
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
