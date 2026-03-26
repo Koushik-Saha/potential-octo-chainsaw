@@ -5,14 +5,14 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react'
 
 const education = [
   {
-    degree: 'Master of Arts in TESOL',
+    degree: 'MA (Teaching English to Speakers of Other Languages) (TESOL)',
     institution: 'Westcliff University',
     location: 'Irvine, California, USA',
-    period: '2022 – Present',
+    period: 'Current',
     status: 'In Progress',
     statusType: 'progress',
     description:
-      'Graduate studies focused on second language acquisition, curriculum design, language assessment, intercultural communication, and advanced pedagogy for English language learners. Completing a showcase portfolio as part of the capstone requirements.',
+      'Graduate studies focused on advanced TESOL methodologies, second language acquisition, and pedagogical innovation. Actively developing a professional teaching portfolio.',
     courses: [
       'Second Language Acquisition',
       'Language Curriculum Design',
@@ -23,20 +23,20 @@ const education = [
     ],
   },
   {
-    degree: 'Bachelor of Arts in English',
-    institution: 'University (Bangladesh)',
-    location: 'Bangladesh',
-    period: '2012 – 2016',
+    degree: 'Bachelor of Arts (English Language and Literature)',
+    institution: 'Southeast University',
+    location: 'Dhaka, Bangladesh',
+    period: 'Completed 2022',
     status: 'Completed',
     statusType: 'completed',
     description:
-      'Undergraduate studies in English language and literature with a focus on linguistics, discourse analysis, and applied English skills.',
+      'Foundational studies in English linguistics and literature, providing a strong academic base for English language teaching.',
     courses: [
-      'Applied English Linguistics',
+      'English Linguistics',
       'English Literature',
-      'Discourse Analysis',
+      'Teaching Methodologies',
       'Phonetics & Phonology',
-      'Sociolinguistics',
+      'Discourse Analysis',
     ],
   },
 ]

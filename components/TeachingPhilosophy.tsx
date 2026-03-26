@@ -41,9 +41,9 @@ export default function TeachingPhilosophy() {
             <Quote size={32} />
           </div>
           <blockquote className={styles.quote}>
-            "Language is not just a tool for communication — it is a window into the soul of a culture and the bridge between human hearts. My mission as an educator is to open that window and build that bridge for every learner in my classroom."
+            "My mission as an educator is to ignite curiosity and foster a genuine love for language in every student, building a strong foundation for lifelong learning through engagement and innovation."
           </blockquote>
-          <cite className={styles.quoteCite}>— Md Moniruzzaman</cite>
+          <cite className={styles.quoteCite}>— Rabeya Boshrie</cite>
         </div>
 
         {/* Core Principles */}

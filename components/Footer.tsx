@@ -14,7 +14,7 @@ const navLinks = [
 ]
 
 const socials = [
-  { icon: <Mail size={18} />, href: 'mailto:moniruzzaman.tesol@email.com', label: 'Email' },
+  { icon: <Mail size={18} />, href: 'mailto:r.boshrie.568@westcliff.edu', label: 'Email' },
   { icon: <ExternalLink size={18} />, href: 'https://linkedin.com', label: 'LinkedIn' },
 ]
 
@@ -31,15 +31,15 @@ export default function Footer() {
         <div className={styles.top}>
           <div className={styles.brand}>
             <div className={styles.logo}>
-              <span className={styles.logoInitial}>MM</span>
+              <span className={styles.logoInitial}>RB</span>
               <div>
-                <div className={styles.logoName}>Md Moniruzzaman</div>
-                <div className={styles.logoTagline}>ESL &amp; TESOL Educator</div>
+                <div className={styles.logoName}>Rabeya Boshrie</div>
+                <div className={styles.logoTagline}>English Teacher (ESL &amp; TESOL)</div>
               </div>
             </div>
             <p className={styles.brandDesc}>
-              Dedicated to empowering English language learners through
-              evidence-based, culturally responsive teaching at Westcliff University.
+              Dedicated to empowering young learners through engaging,
+              student-centered curricula at Westcliff University.
             </p>
             <div className={styles.socials}>
               {socials.map((s) => (
@@ -69,11 +69,11 @@ export default function Footer() {
           <div className={styles.linksBlock}>
             <div className={styles.linksTitle}>Contact</div>
             <div className={styles.contactList}>
-              <a href="mailto:moniruzzaman.tesol@email.com" className={styles.link}>
-                moniruzzaman.tesol@email.com
+              <a href="mailto:r.boshrie.568@westcliff.edu" className={styles.link}>
+                r.boshrie.568@westcliff.edu
               </a>
               <div className={styles.link} style={{ cursor: 'default' }}>Westcliff University</div>
-              <div className={styles.link} style={{ cursor: 'default' }}>United States</div>
+              <div className={styles.link} style={{ cursor: 'default' }}>Los Angeles, California</div>
             </div>
           </div>
         </div>

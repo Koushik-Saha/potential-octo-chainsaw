@@ -54,8 +54,8 @@ export default function Navbar() {
           href="#home"
           onClick={(e) => { e.preventDefault(); handleNavClick('#home') }}
         >
-          <span className={styles.logoInitial}>MM</span>
-          <span className={styles.logoText}>Md Moniruzzaman</span>
+          <span className={styles.logoInitial}>RB</span>
+          <span className={styles.logoText}>Rabeya Boshrie</span>
         </a>
 
         <nav className={`${styles.links} ${menuOpen ? styles.open : ''}`}>

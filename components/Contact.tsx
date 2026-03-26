@@ -8,19 +8,19 @@ const contactInfo = [
   {
     icon: <Mail size={20} />,
     label: 'Email',
-    value: 'moniruzzaman.tesol@email.com',
-    href: 'mailto:moniruzzaman.tesol@email.com',
+    value: 'r.boshrie.568@westcliff.edu',
+    href: 'mailto:r.boshrie.568@westcliff.edu',
   },
   {
     icon: <ExternalLink size={20} />,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/moniruzzaman',
+    value: 'linkedin.com/in/rabeya-boshrie',
     href: 'https://linkedin.com',
   },
   {
     icon: <MapPin size={20} />,
     label: 'Location',
-    value: 'United States',
+    value: 'Los Angeles, California',
     href: null,
   },
 ]

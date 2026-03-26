@@ -36,39 +36,35 @@ export default function About() {
             <div className={styles.eyebrow}>About Me</div>
             <h2 className={styles.heading}>
               Passionate Educator &amp;{' '}
-              <span className={styles.headingAccent}>Language Advocate</span>
+              <span className={styles.headingAccent}>Early Literacy Specialist</span>
             </h2>
             <div className="divider divider-left" />
 
             <p className={styles.bio}>
-              I am <strong>Md Moniruzzaman</strong>, an experienced ESL teacher
-              and a dedicated TESOL graduate student at{' '}
-              <strong>Westcliff University</strong>. My journey in English
-              language education spans over eight years, during which I have
-              had the privilege of working with learners of all ages and
-              proficiency levels across multiple countries.
+              I am <strong>Rabeya Boshrie</strong>, a passionate and innovative
+              English educator with experience shaping young minds in kindergarten
+              and primary school settings. Currently, I am pursuing my MA in TESOL
+              at <strong>Westcliff University</strong>.
             </p>
             <p className={styles.bio}>
-              My teaching practice is grounded in communicative language
-              teaching (CLT), task-based instruction, and a deep respect for
-              the multilingual identities my students bring to the classroom.
-              I believe that language learning is not just about acquiring
-              grammar rules — it is about empowering individuals to connect,
-              express, and thrive in an increasingly interconnected world.
+              My teaching philosophy centers on crafting engaging, student-centered
+              curricula that ignite curiosity and foster a genuine love for language.
+              I am adept at blending traditional teaching methods with modern
+              technology to create interactive, hands-on learning experiences
+              that resonate with early learners.
             </p>
             <p className={styles.bio}>
-              Through my graduate studies in TESOL, I am deepening my
-              understanding of second language acquisition theory, curriculum
-              design, language assessment, and the intersection of language,
-              culture, and identity. This academic journey fuels my
-              evidence-based approach to teaching and informs my ongoing
-              professional development.
+              Utilizing a proactive approach to student development, I leverage
+              data to personalize instruction and elevate student outcomes.
+              As a collaborative and empathetic communicator, I am committed to
+              building lasting relationships with students, parents, and
+              colleagues to create thriving, inclusive environments.
             </p>
 
             <div className={styles.infoRow}>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>Location</span>
-                <span className={styles.infoValue}>United States</span>
+                <span className={styles.infoValue}>Los Angeles, CA</span>
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoLabel}>University</span>

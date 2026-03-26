@@ -53,8 +53,8 @@ export default function Certifications() {
     <section id="certifications" className={`section section-alt ${styles.certifications}`}>
       <div className="container">
         <div className="section-header">
-          <h2>Certifications &amp; Professional Development</h2>
-          <p>Ongoing commitment to professional growth and excellence in TESOL practice.</p>
+          <h2>Professional Development</h2>
+          <p>Commitment to continuous growth and excellence in pedagogical practice as a TESOL candidate.</p>
         </div>
 
         <div className={styles.grid}>

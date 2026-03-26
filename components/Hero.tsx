@@ -5,9 +5,9 @@ import styles from './Hero.module.css'
 import { BookOpen, Mail, ChevronDown, Award, Users, Globe } from 'lucide-react'
 
 const stats = [
-  { icon: <BookOpen size={18} />, value: '8+', label: 'Years Teaching' },
-  { icon: <Users size={18} />, value: '500+', label: 'Students Taught' },
-  { icon: <Globe size={18} />, value: '3+', label: 'Countries Served' },
+  { icon: <BookOpen size={18} />, value: '2+', label: 'Years Teaching' },
+  { icon: <Users size={18} />, value: '100+', label: 'Students Taught' },
+  { icon: <Globe size={18} />, value: '2', label: 'Countries Served' },
   { icon: <Award size={18} />, value: 'MA', label: 'TESOL Candidate' },
 ]
 
@@ -37,21 +37,20 @@ export default function Hero() {
           </div>
 
           <h1 ref={titleRef} className={styles.name}>
-            Md <span className={styles.highlight}>Moniruzzaman</span>
+            Rabeya <span className={styles.highlight}>Boshrie</span>
           </h1>
 
           <p className={styles.tagline}>
-            Transforming Language Learning Through{' '}
-            <span className={styles.taglineAccent}>Empathy</span>,{' '}
+            Shaping Young Minds Through{' '}
+            <span className={styles.taglineAccent}>Engagement</span>,{' '}
             <span className={styles.taglineAccent}>Innovation</span> &amp;{' '}
-            <span className={styles.taglineAccent}>Evidence-Based Pedagogy</span>
+            <span className={styles.taglineAccent}>Early Literacy</span>
           </p>
 
           <p className={styles.subtitle}>
-            MA TESOL Graduate Student at{' '}
-            <strong>Westcliff University</strong> · Experienced ESL Teacher ·
-            Dedicated to fostering inclusive and equitable multilingual
-            classrooms where every learner thrives.
+            MA TESOL Student at{' '}
+            <strong>Westcliff University</strong> · Experienced English Teacher ·
+            Dedicated to crafting student-centered curricula that ignite curiosity and foster a love for language.
           </p>
 
           <div className={styles.actions}>
@@ -86,12 +85,12 @@ export default function Hero() {
         <div className={styles.profileCard}>
           <div className={styles.avatarRing}>
             <div className={styles.avatar}>
-              <span className={styles.avatarInitials}>MM</span>
+              <span className={styles.avatarInitials}>RB</span>
             </div>
           </div>
           <div className={styles.cardInfo}>
-            <h3>Md Moniruzzaman</h3>
-            <p>ESL &amp; TESOL Educator</p>
+            <h3>Rabeya Boshrie</h3>
+            <p>English Teacher (ESL &amp; TESOL)</p>
             <div className={styles.cardTags}>
               <span className="tag">English Language</span>
               <span className="tag tag-accent">TESOL</span>

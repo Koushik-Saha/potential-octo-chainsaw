@@ -4,47 +4,36 @@ import styles from './Skills.module.css'
 
 const skillGroups = [
   {
-    category: 'ESL / EFL Methodologies',
+    category: 'Pedagogy & Curriculum',
     color: 'blue',
     skills: [
-      { name: 'Communicative Language Teaching', level: 95 },
-      { name: 'Task-Based Language Teaching', level: 90 },
-      { name: 'Content-Based Instruction', level: 82 },
-      { name: 'Genre-Based Approach', level: 78 },
-      { name: 'Grammar Translation Method', level: 75 },
-    ],
-  },
-  {
-    category: 'Language Skills Development',
-    color: 'gold',
-    skills: [
-      { name: 'Reading Instruction', level: 93 },
-      { name: 'Writing Instruction', level: 90 },
-      { name: 'Speaking & Oral Fluency', level: 88 },
-      { name: 'Listening Comprehension', level: 85 },
-      { name: 'Vocabulary Development', level: 92 },
-    ],
-  },
-  {
-    category: 'Assessment & Evaluation',
-    color: 'navy',
-    skills: [
-      { name: 'Formative Assessment Design', level: 88 },
-      { name: 'Summative Assessment', level: 85 },
-      { name: 'IELTS / TOEFL Preparation', level: 90 },
-      { name: 'Portfolio-Based Assessment', level: 80 },
-      { name: 'Needs Analysis', level: 85 },
+      { name: 'Curriculum Development', level: 95 },
+      { name: 'Lesson Planning', level: 95 },
+      { name: 'Early Childhood Literacy', level: 92 },
+      { name: 'Student Assessment', level: 90 },
+      { name: 'Classroom Management', level: 94 },
     ],
   },
   {
     category: 'Educational Technology',
-    color: 'blue',
+    color: 'gold',
     skills: [
-      { name: 'Google Classroom', level: 92 },
-      { name: 'Nearpod / Padlet', level: 88 },
-      { name: 'Zoom / Online Teaching', level: 90 },
-      { name: 'Canva for Educators', level: 82 },
-      { name: 'Corpus Tools & CALL', level: 75 },
+      { name: 'Technology Integration', level: 90 },
+      { name: 'Google Classroom', level: 95 },
+      { name: 'Zoom Management', level: 92 },
+      { name: 'Microsoft Office Suite', level: 88 },
+      { name: 'Data Visualization', level: 85 },
+    ],
+  },
+  {
+    category: 'Communication & Management',
+    color: 'navy',
+    skills: [
+      { name: 'Parent Communication', level: 96 },
+      { name: 'Event Planning', level: 90 },
+      { name: 'Social Media Management', level: 85 },
+      { name: 'KPI Monitoring', level: 88 },
+      { name: 'Progress Reporting', level: 92 },
     ],
   },
 ]

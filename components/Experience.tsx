@@ -5,43 +5,18 @@ import { Briefcase, Calendar, MapPin, ChevronRight } from 'lucide-react'
 
 const experiences = [
   {
-    role: 'ESL Instructor',
-    organization: 'Language Institute / Community College',
-    location: 'United States',
-    period: '2020 – Present',
-    type: 'Full-time',
-    responsibilities: [
-      'Design and deliver communicative ESL lessons for adult learners at varying proficiency levels (Beginner to Advanced)',
-      'Develop differentiated instructional materials aligned with CCRS and ELPA21 standards',
-      'Conduct ongoing formative and summative assessments to monitor student progress',
-      'Collaborate with academic support staff to provide holistic student support',
-      'Integrate technology tools (Padlet, Nearpod, Google Classroom) to enhance engagement',
-    ],
-  },
-  {
-    role: 'ESL / EFL Teacher',
-    organization: 'Private Language School',
-    location: 'Middle East / Asia',
-    period: '2015 – 2020',
-    type: 'Full-time',
-    responsibilities: [
-      'Taught English as a Foreign Language to learners aged 10–45 across skill areas',
-      'Designed thematic units integrating reading, writing, speaking, and listening skills',
-      'Prepared students for international proficiency exams (IELTS, TOEFL, Cambridge PET)',
-      'Mentored junior teachers and led professional development workshops',
-      'Built positive classroom community through culturally responsive teaching strategies',
-    ],
-  },
-  {
-    role: 'English Language Tutor',
-    organization: 'Freelance / Community Organization',
+    role: 'English Teacher',
+    organization: 'Novelty School & College',
     location: 'Bangladesh',
-    period: '2012 – 2015',
-    type: 'Part-time',
+    period: 'Feb 2020 – Dec 2022',
+    type: 'Full-time',
     responsibilities: [
-      'Provided one-on-one and small group tutoring in grammar, vocabulary, and communication skills',
-      'Supported students preparing for national and university-level English examinations',
-      'Created custom learning plans based on individual student needs and goals',
+      'Delivered English instruction to over 100 kindergarten and primary students, focusing on early literacy, phonics, reading comprehension, and communication skills',
+      'Developed and implemented differentiated lesson plans, resulting in a 30% improvement in average reading assessment scores within one academic year',
+      'Adapted teaching methods to meet diverse learning styles, supporting a 95% student pass rate in annual evaluations',
+      'Built strong relationships with parents and caregivers, achieving a 90%+ satisfaction rate through consistent communication and detailed progress updates',
+      'Fostered a nurturing and inclusive classroom environment, leading to a 98% student attendance rate',
+      'Coordinated and participated in 5+ school-wide events, workshops, and literacy programs to support student engagement and school community development',
     ],
   },
 ]
